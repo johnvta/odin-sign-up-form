@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <!-- LEFT-SIDE CONTENT -->
+      <div class="left-side col-sm-4">
+        <img src="img/leaf.jpg" width="100%" height="100%" alt="Picture">
+            <h1 class="left-side-middle pt-3 pb-3" height="25%"><img src="img/odin-lined.png" width="15%" alt="Picture">ODIN</h1>
+            <h6 class="left-side-bottom">Photo by <a class="left-side-link" href="#">Halie West </a>on <a class="left-side-link" href="#">Unsplash</a></h6>
+      </div>
+      <!-- RIGHT-SIDE CONTENT -->
+      <div class="right-side col-sm-8">
+        
+        <!-- BOX ONE -->
+        <div class="box-one row">
+          <div class="container-fluid">
+            <p class="box-one-header">This is not a real online service! You know why you need something<br>like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+            <p class="box-one-header-ex">You <em>know</em> you want to.</p>
+          </div>
+        </div>
+
+        <!-- BOX TWO -->
+        <div class="box-two row">
+          <div class="container-fluid mt-3">
+            <form id="sign-up-form" action="#">
+              <h3 class="box-two-header">Let's do this!</h3>
+              <div class="row m-4">
+                <div class="input col-sm-4">
+                  <label for="first-name">FIRST NAME</label>
+                  <input type="text" name="first-name" id="first-name" size="30" required>
+                </div>
+                <div class="input col-sm-8">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" name="last-name" id="last-name" size="30" required>
+                </div>
+              </div>
+              <div class="row m-4">
+                <div class="input col-sm-4">
+                  <label for="email">EMAIL</label>
+                  <input type="email" name="email" id="email" size="30" required>
+                </div>
+                <div class="input col-sm-8">
+                  <label for="phone-number">PHONE NUMBER</label>
+                  <input type="text" name="phone-number" id="phone-number" size="30" minlength="9" maxlength="9" required>
+                </div>
+              </div>
+              <div class="row m-4">
+                <div class="input col-sm-4">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" name="password" id=password" size="30" minlength="8" maxlength="20" required>
+                </div>
+                <div class="input col-sm-8">
+                  <label for="confirm-password">CONFIRM PASSWORD</label>
+                  <input type="password" name="confirm-password" id="confirm-password" size="30" minlength="8" maxlength="20" required>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- BOX THREE -->
+        <div class="box-three row">
+          <div class="container-fluid">
+            <button class="form-button" type="submit" form="sign-up-form">Create Account</button>
+            <h3 class="box-three-header">Already have an account? <a class="box-three-link" href="#">Log in</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+  crossorigin="anonymous"></script>
+</body>
+</html>
