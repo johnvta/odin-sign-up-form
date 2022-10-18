@@ -1,0 +1,111 @@
+:root {
+  --color: #596D48;
+}
+
+
+/** LEFT-SIDE **/
+.left-side {
+  position: relative;
+  text-align: center;
+}
+
+.left-side-middle {
+  position: absolute;
+  top: 21%;
+  width: 100%;
+  font-size: 90px;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.left-side-bottom {
+  position: absolute;
+  bottom: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.left-side-link {
+  color: white;
+}
+
+
+/** RIGHT-SIDE BOX ONE **/
+.box-one {
+  height: 37%;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.box-one-header {
+  margin: 140px 0 0 65px;
+}
+
+.box-one-header-ex {
+  margin: 25px 0 0 65px;
+}
+
+
+/** RIGHT-SIDE BOX TWO **/
+input, label {
+  display: block;
+  margin-left: 30px;
+}
+
+input:focus {
+  border: 2px solid var(--color);
+  outline: none;
+}
+
+.box-two-header {
+  margin: 15px 0 0 65px;
+}
+
+
+/** RIGHT-SIDE BOX THREE **/
+form {
+  background-color: rgb(6, 6, 6);
+  box-shadow: 0 10px 20px -2px rgb(185, 178, 178);
+  padding: 20px 0;
+}
+
+em {
+  color: var(--color);
+}
+
+.form-button {
+  border-radius: 10px;
+  padding: 10px 60px;
+  background-color: var(--color);
+  font-family: ProximaNova, sans-serif;
+  font-weight: 550;
+  color: white;
+  margin-left: 65px;
+  margin-top: 40px;
+  border-color: rgb(0, 0, 0, 0.5);
+}
+
+.form-button:hover {
+  background-color: #233017;
+}
+
+.box-three-header{
+  margin: 35px 0 20px 65px;
+  font-size: 18px;
+}
+
+.box-three-link {
+  text-decoration: none;
+  color: var(--color);
+}
+
+.box-three-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container-fluid, .left-side, .right-side {
+  padding-left: 0;
+  padding-right: 0;
+}
+
